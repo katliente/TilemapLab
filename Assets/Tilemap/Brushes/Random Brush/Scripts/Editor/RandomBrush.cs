@@ -7,7 +7,11 @@ using UnityEngine.Tilemaps;
 namespace UnityEditor
 {
     [CustomGridBrush(false, true, false, "Random Brush")]
+<<<<<<< HEAD
     public class RandomBrush : UnityEditor.Tilemaps.GridBrush 
+=======
+    public class RandomBrush : GridBrush 
+>>>>>>> 5b21dec58d0929beb09376b93fb4a0af70f64aff
 	{
 		public TileBase[] randomTiles;
 		
@@ -49,7 +53,11 @@ namespace UnityEditor
     }
 
     [CustomEditor(typeof(RandomBrush))]
+<<<<<<< HEAD
     public class RandomBrushEditor : UnityEditor.Tilemaps.GridBrushEditor
+=======
+    public class RandomBrushEditor : GridBrushEditor
+>>>>>>> 5b21dec58d0929beb09376b93fb4a0af70f64aff
     {
         private RandomBrush randomBrush { get { return target as RandomBrush; } }
 		private GameObject lastBrushTarget;

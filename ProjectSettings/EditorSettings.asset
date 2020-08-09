@@ -3,19 +3,27 @@
 --- !u!159 &1
 EditorSettings:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   serializedVersion: 9
+=======
+  serializedVersion: 7
+>>>>>>> 5b21dec58d0929beb09376b93fb4a0af70f64aff
   m_ExternalVersionControlSupport: Visible Meta Files
   m_SerializationMode: 2
   m_LineEndingsForNewScripts: 2
   m_DefaultBehaviorMode: 1
+<<<<<<< HEAD
   m_PrefabRegularEnvironment: {fileID: 0}
   m_PrefabUIEnvironment: {fileID: 0}
+=======
+>>>>>>> 5b21dec58d0929beb09376b93fb4a0af70f64aff
   m_SpritePackerMode: 4
   m_SpritePackerPaddingPower: 1
   m_EtcTextureCompressorBehavior: 1
   m_EtcTextureFastCompressor: 1
   m_EtcTextureNormalCompressor: 2
   m_EtcTextureBestCompressor: 4
+<<<<<<< HEAD
   m_ProjectGenerationIncludedExtensions: txt;xml;fnt;cd;asmref
   m_ProjectGenerationRootNamespace: 
   m_CollabEditorSettings:
@@ -33,3 +41,10 @@ EditorSettings:
   m_CacheServerNamespacePrefix: default
   m_CacheServerEnableDownload: 1
   m_CacheServerEnableUpload: 1
+=======
+  m_ProjectGenerationIncludedExtensions: txt;xml;fnt;cd
+  m_ProjectGenerationRootNamespace: 
+  m_UserGeneratedProjectSuffix: 
+  m_CollabEditorSettings:
+    inProgressEnabled: 1
+>>>>>>> 5b21dec58d0929beb09376b93fb4a0af70f64aff

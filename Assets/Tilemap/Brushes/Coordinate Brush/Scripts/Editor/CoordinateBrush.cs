@@ -5,7 +5,11 @@ using UnityEngine;
 namespace UnityEditor
 {
     [CustomGridBrush(true, false, false, "Coordinate Brush")]
+<<<<<<< HEAD
     public class CoordinateBrush : UnityEditor.Tilemaps.GridBrush {
+=======
+    public class CoordinateBrush : GridBrush {
+>>>>>>> 5b21dec58d0929beb09376b93fb4a0af70f64aff
         public int z = 0;
 
         public override void Paint(GridLayout grid, GameObject brushTarget, Vector3Int position)
@@ -46,7 +50,11 @@ namespace UnityEditor
     }
 
     [CustomEditor(typeof(CoordinateBrush))]
+<<<<<<< HEAD
     public class CoordinateBrushEditor : UnityEditor.Tilemaps.GridBrushEditor
+=======
+    public class CoordinateBrushEditor : GridBrushEditor
+>>>>>>> 5b21dec58d0929beb09376b93fb4a0af70f64aff
     {
         private CoordinateBrush coordinateBrush { get { return target as CoordinateBrush; } }
 
